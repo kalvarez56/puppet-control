@@ -1,0 +1,11 @@
+---
+profile::apache::apache_vhost_servers: {
+  'kelal62.mylabserver.com':{
+    port: 80,
+    docroot: '/var/www/kelal62'
+  },
+  'kelal62b.mylabserver.com':{
+    port: 80,
+    docroot: '/var/www/kelal62b'
+  }
+}

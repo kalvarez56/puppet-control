@@ -12,8 +12,8 @@ profile::apache::apache_vhost_servers: {
 
 profile::nginx::vhosts: 
   - 'fqdn': 'kelal64.mylabserver.com'
-    'port': 8080
+    'port': 8081
     'server_aliases': ''
   - 'fqdn': 'kelal64b.mylabserver.com'
-    'port': 8081
+    'port': 8082
     'server_aliases': 'kelal64b1.mylabserver.com'

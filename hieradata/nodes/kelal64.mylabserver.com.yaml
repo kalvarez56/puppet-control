@@ -1,14 +1,4 @@
 ---
-profile::apache::apache_vhost_servers: {
-  'kelal64.mylabserver.com':{
-    port: 80,
-    docroot: '/var/www/kelal64'
-  },
-  'kelal64b.mylabserver.com':{
-    port: 80,
-    docroot: '/var/www/kelal64b'
-  }
-}
 
 profile::nginx::vhosts: 
   - 'fqdn': 'kelal64a.mylabserver.com'
